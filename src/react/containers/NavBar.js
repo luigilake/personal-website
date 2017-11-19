@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import Headroom from 'react-headroom';
 
 class NavBar extends Component {
   constructor(props){
@@ -8,11 +9,16 @@ class NavBar extends Component {
   }
 
   render(){
+    let buttonClass = 'navigation-button'
     return(
       <div>
-        <div>
-          NAVIGATION
-        </div>
+        <Headroom>
+          <div className='navigation'>
+            <button className={buttonClass} >ABOUT</button>
+            <button className={buttonClass} >RESUME</button>
+            <button className={buttonClass} >PROJECTS</button>
+          </div>
+        </Headroom>
         {this.props.children}
       </div>
     )
