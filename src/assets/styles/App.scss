@@ -22,19 +22,27 @@ body {
   justify-content: center;
 }
 
+.navigation-link {
+  margin: 0% 5%;
+}
+
 .navigation-button {
   font-size: 1.5rem;
   padding: 0%;
   border: none;
-  margin: 0% 5%;
   font-family: 'Futura', serif;
   width: 10rem;
+  height: 5rem;
   transition-duration: 0.5s;
 }
 
 .navigation-button:hover {
   color: #4f7e41;
-  // font-size: 2.2rem;
+}
+
+.navigation-button:focus {
+  color: #4f7e41;
+  outline: none;
 }
 
 @media only screen and (max-width: 790px) {
@@ -43,6 +51,11 @@ body {
     margin: 0%;
     font-family: 'Futura', serif;
     width: 7rem;
+    height: 4rem;
+  }
+
+  .navigation-link {
+    margin: 0%;
   }
 
   .navigation {

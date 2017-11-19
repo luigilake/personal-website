@@ -4,6 +4,7 @@ import '../assets/styles/App.scss';
 
 import NavBar from './containers/NavBar'
 import AboutMe from './containers/AboutMe'
+import Resume from './containers/Resume'
 
 
 const App = props => {
@@ -11,6 +12,7 @@ const App = props => {
     <Router history={browserHistory}>
       <Route path='/' component={NavBar}>
         <IndexRoute component={AboutMe}/>
+        <Route path='/resume' component={Resume}/>
       </Route>
     </Router>
   );
