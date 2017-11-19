@@ -14,9 +14,9 @@ class NavBar extends Component {
       <div>
         <Headroom>
           <div className='navigation'>
-            <button className={buttonClass} >ABOUT</button>
-            <button className={buttonClass} >RESUME</button>
-            <button className={buttonClass} >PROJECTS</button>
+            <Link className='navigation-link' to='/' ><button className={buttonClass} >ABOUT</button></Link>
+            <Link className='navigation-link' to='/resume' ><button className={buttonClass} >RESUME</button></Link>
+            <Link className='navigation-link' to='/projects' ><button className={buttonClass} >PROJECTS</button></Link>
           </div>
         </Headroom>
         {this.props.children}
