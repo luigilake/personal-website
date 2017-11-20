@@ -10,7 +10,9 @@ class AboutMe extends Component {
   render(){
     return(
       <div>
-        <h1>HI, I'M LUIGI LAKE</h1>
+        <div>
+          <h1 id='about-me-greeting' >HI, I'M LUIGI LAKE</h1>
+        </div>
         <h3>ABOUT ME SECTION</h3>
       </div>
     )
