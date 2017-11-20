@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cardo|Open+Sans');
-
-* {
-  font-family: 'Futura';
-  font-weight: lighter;
-}
+@import url('https://fonts.googleapis.com/css?family=Cardo|Open+Sans|Playfair+Display:400,900');
 
 body {
   margin: 0%;
@@ -16,7 +11,7 @@ body {
 }
 
 .navigation {
-  background: #ffffff;
+  background: #535E63;
   height: 5rem;
   display: flex;
   justify-content: center;
@@ -27,6 +22,7 @@ body {
 }
 
 .navigation-button {
+  background: inherit;
   font-size: 1.5rem;
   padding: 0%;
   border: none;
@@ -34,14 +30,15 @@ body {
   width: 10rem;
   height: 5rem;
   transition-duration: 0.5s;
+  color: white;
 }
 
 .navigation-button:hover {
-  color: #4f7e41;
+  font-size: 1.6rem;
 }
 
 .navigation-button:focus {
-  color: #4f7e41;
+  font-size: 1.6rem;
   outline: none;
 }
 
@@ -54,6 +51,15 @@ body {
     height: 4rem;
   }
 
+  .navigation-button:hover {
+    font-size: 1.2rem;
+  }
+
+  .navigation-button:focus {
+    font-size: 1.2rem;
+    outline: none;
+  }
+
   .navigation-link {
     margin: 0%;
   }
@@ -61,4 +67,9 @@ body {
   .navigation {
     height: 4rem;
   }
+}
+
+h1#about-me-greeting {
+  font-family: 'Playfair Display 900';
+  font-size: 3rem;
 }
