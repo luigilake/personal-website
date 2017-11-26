@@ -7,8 +7,9 @@ module.exports = {
   ],
   module: {
     loaders: [
-      { test: /\.js?$/, loader: 'babel-loader', exclude: /node_modules/ },
+      { test: /\.js?$/, loader: 'babel-loader', exclude: /node_modules/, query: { presets: ['es2015'] } },
       { test: /\.s?css$/, loader: 'style-loader!css-loader!sass-loader' },
+      { test: /\.(jpe?g|png|gif|svg)$/, loader: "file-loader" },
     ]
   },
   resolve: {
