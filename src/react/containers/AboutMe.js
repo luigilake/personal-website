@@ -11,7 +11,8 @@ class AboutMe extends Component {
     return(
       <div>
         <div>
-          <h1 id='about-me-greeting' >HI, I'M LUIGI LAKE</h1>
+          <h1 id='about-me-greeting' >L U I G I   L A K E</h1>
+          <h2 id='about-me-greeting' >W E B  D E V E L O P E R</h2>
         </div>
         <h3>ABOUT ME SECTION</h3>
       </div>
