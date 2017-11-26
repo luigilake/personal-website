@@ -5,13 +5,15 @@ body {
 }
 
 #root {
-  background: #eeeeee;
+  background-image: url('space-backgroundX.jpg');
+  background-size: cover;
   height: 100rem;
   width: 100%;
 }
 
 .navigation {
-  background: #535E63;
+  background: rgba(32, 33, 33, 0.4);
+  border-bottom: 3px solid white;
   height: 5rem;
   display: flex;
   justify-content: center;
