@@ -9,12 +9,10 @@ class AboutMe extends Component {
 
   render(){
     return(
-      <div>
-        <div>
-          <h1 id='about-me-greeting' >L U I G I   L A K E</h1>
-          <h2 id='about-me-greeting' >W E B  D E V E L O P E R</h2>
-        </div>
-        <h3>ABOUT ME SECTION</h3>
+      <div className='about-me-div' >
+        <hr className='about-me-divider'/>
+        <img id='profile-image' src='https://78.media.tumblr.com/eddbda747edd043d0017c262b37dd82d/tumblr_p01xlg4Q8i1qh8hvwo1_540.jpg'/>
+        <p className='about-me-content' >Hi, I'm Luigi Lake.</p>
       </div>
     )
   }
