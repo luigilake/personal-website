@@ -95,6 +95,10 @@ h2#about-me-title {
   letter-spacing: 30px;
 }
 
+hr.about-me-divider {
+  border: 2px solid white;
+}
+
 @media only screen and (max-width: 790px) {
 
   h1#about-me-greeting {
@@ -111,6 +115,33 @@ h2#about-me-title {
 
 // ABOUT ME
 
-img.profile-image {
-  
+div.about-me-div {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+img#profile-image {
+  margin-top: -10rem;
+  border-radius: 100%;
+  border: 4.5px solid white;
+  max-height: 20rem;
+}
+
+p.about-me-content {
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 790px) {
+
+  img#profile-image {
+    margin-top: -5rem;
+    border-radius: 100%;
+    border: 3px solid white;
+    max-height: 10rem;
+  }
+
 }

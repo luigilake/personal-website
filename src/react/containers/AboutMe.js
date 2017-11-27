@@ -9,8 +9,10 @@ class AboutMe extends Component {
 
   render(){
     return(
-      <div>
-        <img id='profile-image' src='https://img2.cgtrader.com/items/131761/7bd20a367f/large/the-one-ring-3d-model-max.png'/>
+      <div className='about-me-div' >
+        <hr className='about-me-divider'/>
+        <img id='profile-image' src='https://78.media.tumblr.com/eddbda747edd043d0017c262b37dd82d/tumblr_p01xlg4Q8i1qh8hvwo1_540.jpg'/>
+        <p className='about-me-content' >Hi, I'm Luigi Lake.</p>
       </div>
     )
   }
